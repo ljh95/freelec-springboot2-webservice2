@@ -29,6 +29,11 @@ public class Posts {
         this.content = content;
         this.author = author;
     }
+
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
 }
 /*
 * @Entity는 JAP의 어노테이셔ㄴ이며,
