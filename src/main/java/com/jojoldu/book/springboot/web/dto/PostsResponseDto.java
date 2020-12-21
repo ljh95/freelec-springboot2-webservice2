@@ -1,10 +1,7 @@
 package com.jojoldu.book.springboot.web.dto;
 
 import com.jojoldu.book.springboot.domain.posts.Posts;
-import com.sun.xml.internal.ws.api.EndpointAddress;
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
 import lombok.Getter;
-import sun.corba.EncapsInputStreamFactory;
 
 @Getter
 public class PostsResponseDto {
